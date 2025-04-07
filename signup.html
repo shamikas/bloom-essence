@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Bloom Essence</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="Index.html" class="logo">Bloom Essence</a>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="signup.html" class="active">Sign Up</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="signup">
+    <section class="signup-form">
+      <h1>Join the Bloom Essence Family</h1>
+      <p>Sign up to receive floral inspiration, exclusive discounts, and updates on our newest collections and services.</p>
+
+      <form id="signupForm">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required/>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required/>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"/>
+
+        <label for="preferences">What are you most interested in?</label>
+        <select id="preferences" name="preferences">
+          <option value="floral-arrangements">Floral Arrangements</option>
+          <option value="event-decor">Event Decor</option>
+          <option value="gift-boxes">Luxury Gift Boxes</option>
+          <option value="all">All of the above</option>
+        </select>
+
+        <label>
+          <input type="checkbox" name="newsletter" checked />
+          Subscribe to our newsletter
+        </label>
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bloom Essence. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
